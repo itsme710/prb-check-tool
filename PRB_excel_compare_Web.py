@@ -179,7 +179,7 @@ if master_file and target_file:
                     'p1_df': pd.DataFrame(p1_updates),
                     'p2_df': pd.DataFrame(p2_updates),
                     'file_content': output.getvalue(),
-                    'file_name': f"{os.path.splitext(target_file.name)[0]}_PPP_Review.xlsx"
+                    'file_name': f"{os.path.splitext(target_file.name)[0]}_PPP.xlsx"
                 }
 
         except Exception as e:
